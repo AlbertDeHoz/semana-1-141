@@ -1,10 +1,19 @@
-.Titulo{
-    color:green;
-    font-size: large;
+.service-content{
+    padding: 0.5em 0;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.memebers{
+    font-style: italic; 
 }
 
 .section-3{
-    height: 500px;
+    height: 530px;
     background-color: rgb(80 83 255);
 }
 
@@ -18,7 +27,7 @@
 
 .col-5{
     width: 24%;
-    height: 470px;
+    height: 500px;
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
@@ -28,5 +37,29 @@
 .imagenes{
     padding: 0.25em 0;
     width: 80%;
-    height: 226px;
+    height: 226px;}
+body{
+    width: 1200px;
+    margin-right:auto ;
+    margin-left: auto;
+}
+.servicios{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;    
+}
+.servicios__detalle{
+    width:33%;
+    background-color: red;
+    margin: 5px ;
+    padding: -3px;   
+}
+.texto{
+    padding: 10px;
+    text-align: left;
+    bottom: 0;
 }
