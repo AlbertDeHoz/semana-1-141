@@ -2,3 +2,31 @@
     color:green;
     font-size: large;
 }
+
+.section-3{
+    height: 500px;
+    background-color: rgb(80 83 255);
+}
+
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-5{
+    width: 24%;
+    height: 470px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color: rgb(148 199 255 / 91%);
+}
+
+.imagenes{
+    padding: 0.25em 0;
+    width: 80%;
+    height: 226px;
+}
