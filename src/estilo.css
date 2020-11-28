@@ -1,16 +1,4 @@
 body{
-<<<<<<< HEAD
-    width :1200px;
-    margin-right : auto;
-    margin-left : auto;
-    background-color: aquamarine;
-}
-
-.Titulo{
-    color:green;
-    font-size: large;
-}
-=======
     width: 1200px;
     margin-right:auto ;
     margin-left: auto;
@@ -35,4 +23,3 @@ body{
     text-align: left;
     bottom: 0;
 }
->>>>>>> Dev
