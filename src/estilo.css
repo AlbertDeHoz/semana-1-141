@@ -1,0 +1,186 @@
+.Titulo{
+    color:green;
+    font-size: large;
+}
+
+.header{
+    background-color: aqua;
+}
+
+.barra-superior{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titulo-principal, .conetenedor-menu{
+    width: 50%;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal_item > a{
+    list-style-type: none;
+}
+
+.menu-principal_item > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**.baner_titulo{
+    position: absolute;
+    color: white
+}*/
+
+.service-content{
+    padding: 0.5em 0;
+}
+
+.service-text{
+    padding: 10px;
+    text-align: justify;
+    bottom: 0;
+}
+
+.service-text.memebers{
+    font-style: italic; 
+}
+
+.section-3{
+    height: 530px;
+    background-color: rgb(80 83 255);
+}
+
+.section-text{
+    margin: 0;
+    color: #3e3e3e;
+    background: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col-5{
+    width: 24%;
+    height: 500px;
+    display: inline-block;
+    margin: 5px 4px 0;
+    text-align: center;
+    background-color: rgb(148 199 255 / 91%);
+}
+
+.imagenes{
+    padding: 0.25em 0;
+    width: 80%;
+    height: 226px;}
+body{
+    width: 1200px;
+    margin-right:auto ;
+    margin-left: auto;
+}
+.servicios{
+    background-color: rgb(80 83 255);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;    
+}
+.servicios__detalle{
+    width:33%;
+    background-color: rgb(148 199 255 / 91%);;
+    margin: 5px ;
+    padding: -3px;   
+}
+.texto{
+    padding: 10px;
+    text-align: left;
+    bottom: 0;
+}
+
+.miembros{
+    background: black;
+    color: white;
+}
+
+.desarrollo-git, .participantes{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.enlace-git{
+    color:white;
+}
+
+.equipo{
+    list-style: none;
+    /**justify-content: space-evenly;**/
+}
+
+/** seccion de noticias*/
+.news{
+    background-color: rgb(80 83 255);
+    margin-bottom: 10px;
+}
+.container{
+    width: 100%;
+    background-color: rgb(80 83 255);
+    height: 350px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.news__container{
+    width: 50%;
+    background: rgb(148 199 255 / 91%);
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+    margin: 5px;
+    padding: 10px;
+
+}
+.news-data{
+    width: 49%;
+    height: 100%;
+    background-color: rebeccapurple;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+    padding: 5px;
+}
+.news__img{
+    margin: 10px 0;
+    padding: 0 40px;
+    color: white;
+    margin: auto;
+}
+.news-a{
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+    float: right;
+}
+.news__parrafo{
+    text-align:justify;
+}
