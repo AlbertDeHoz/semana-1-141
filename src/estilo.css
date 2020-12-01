@@ -1,3 +1,6 @@
+*{
+	font-family:'Montserrat', sans-serif;
+}
 .Titulo{
     color:green;
     font-size: large;
@@ -60,8 +63,10 @@
 }
 
 .section-3{
-    height: 530px;
+    height: 600px;
     background-color: rgb(80 83 255);
+    display:flex;
+    
 }
 
 .section-text{
@@ -73,8 +78,7 @@
 }
 
 .col-5{
-    width: 24%;
-    height: 500px;
+    height: 590px;
     display: inline-block;
     margin: 5px 4px 0;
     text-align: center;
@@ -97,7 +101,8 @@ body{
     text-align: center;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding: 5px;    
+    padding: 5px;
+    height:720px;    
 }
 .servicios__detalle{
     width:33%;
@@ -114,6 +119,7 @@ body{
 .miembros{
     background: black;
     color: white;
+    display:flex;
 }
 
 .desarrollo-git, .participantes{
@@ -138,6 +144,7 @@ body{
 .news{
     background-color: rgb(80 83 255);
     margin-bottom: 10px;
+    height: 800px;
 }
 .container{
     width: 100%;
@@ -148,6 +155,7 @@ body{
     display: inline-flex;
     margin-top: 3px;
     margin-bottom: 5px;
+        height: 395px;
 }
 .news__container{
     width: 50%;
@@ -157,6 +165,7 @@ body{
     display: inline-flex; 
     margin: 5px;
     padding: 10px;
+
 
 }
 .news-data{
@@ -183,4 +192,5 @@ body{
 }
 .news__parrafo{
     text-align:justify;
+    font-size:15px;
 }
